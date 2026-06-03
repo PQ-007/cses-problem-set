@@ -8,6 +8,3 @@
 !*.*
 !*/
 *.exe
-# Optional: If you compile your binaries into a specific folder like 'bin' or 'build'
-# bin/
-# build/
