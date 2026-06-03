@@ -1,1 +1,13 @@
+# Ignore all compiled executables on Windows
+
+
+# Ignore compiled executables on Mac/Linux (files without extensions)
+# This matches everything in the current directory and subdirectories, 
+# but ignores files that have a '.' in their name (like .cpp, .gitignore)
+*
+!*.*
+!*/
 *.exe
+# Optional: If you compile your binaries into a specific folder like 'bin' or 'build'
+# bin/
+# build/
