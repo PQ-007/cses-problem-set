@@ -1,8 +1,11 @@
 # Ignore all compiled executables on Windows
 
 
+# All compiled binaries are written here by the build task
+build/
+
 # Ignore compiled executables on Mac/Linux (files without extensions)
-# This matches everything in the current directory and subdirectories, 
+# This matches everything in the current directory and subdirectories,
 # but ignores files that have a '.' in their name (like .cpp, .gitignore)
 *
 !*.*
